@@ -1,0 +1,219 @@
+id,nazev,obor,mesto,popis,hodnoceni,pocet_recenzi
+1,Fit studio Navrátil,fitness,Zlín,"Fitness centrum, kruhový trénink a jóga.",4.4,11
+2,Elektro Sedláček,elektrikář,Brno,"Montáž osvětlení, rozvaděčů a hromosvodů. Brno a okolí.",4.7,10
+3,Topenářství Hájek,instalatér,Brno,"Oprava kotle, výměna baterií a rekonstrukce koupelen. Brno a okolí.",4.7,240
+4,Hostinec Němec,restaurace,Praha,"Tradiční česká kuchyně, svíčková a řízek.",2.9,67
+5,Salon Růžička,kadeřnictví,Olomouc,"Střihy, melíry a svatební účesy, objednání online. Olomouc a okolí.",4.6,249
+6,Posilovna Veselý,fitness,Brno,Cvičení pro začátečníky a skupinové lekce. Brno a okolí.,3.6,64
+7,Pizzerie Černý,restaurace,Blansko,Pizza z pece na dřevo a denní menu. Blansko a okolí.,4.9,5
+8,Květiny Vaněk,květinářství,Praha,"Kytice, svatební a smuteční vazby, rozvoz. Praha a okolí.",4.8,140
+9,MVDr. Němec,veterinář,Zlín,"Očkování, kastrace a čipování mazlíčků.",4.6,45
+10,Kadeřnictví Jelínek,kadeřnictví,Brno,"Dámské, pánské a dětské střihy, barvení. Brno a okolí.",4.0,172
+11,Květinářství U Vlčeků,květinářství,Praha,"Čerstvé květiny, dekorace a dárky.",4.6,130
+12,Malíři Blažek,malíř,Praha,"Vymalování po rekonstrukci, tapetování. Praha a okolí.",4.5,8
+13,Zubař Navrátil,zubař,Olomouc,"Zubní ordinace pro dospělé i děti, bělení zubů. Olomouc a okolí.",4.6,263
+14,Café Dvořák,kavárna,Zlín,"Káva, limonády a koláče, zahrádka. Zlín a okolí.",4.5,11
+15,Malování Novák,malíř,Blansko,"Vymalování po rekonstrukci, tapetování. Blansko a okolí.",4.9,136
+16,Elektro Černý,elektrikář,Ostrava,Revize elektrických spotřebičů a zařízení.,4.7,7
+17,Elektro Šimek,elektrikář,Plzeň,"Elektroinstalace v bytech a domech, revize. Plzeň a okolí.",4.0,153
+18,Cukrárna Vlček,kavárna,Praha,"Specialty káva, domácí dorty a zákusky.",4.7,109
+19,Zubní ordinace Pospíšil,zubař,Olomouc,Akutní ošetření a preventivní prohlídky. Olomouc a okolí.,3.5,64
+20,Veterinární klinika Kopecký,veterinář,Praha,"Ordinace pro malá zvířata, operace a laboratoř. Praha a okolí.",4.7,6
+21,Servis vozidel Veselý,autoservis,Boskovice,"Diagnostika, opravy brzd a geometrie. Boskovice a okolí.",4.5,149
+22,Pizzerie Fiala,restaurace,Boskovice,"Domácí pizza, těstoviny a saláty, zahrádka. Boskovice a okolí.",4.5,9
+23,Elektroservis Polák,elektrikář,Plzeň,"Montáž osvětlení, rozvaděčů a hromosvodů. Plzeň a okolí.",3.4,30
+24,Cukrárna Zeman,kavárna,Praha,Kavárna s domácími dorty a vlastní pražírnou. Praha a okolí.,4.7,9
+25,Pizzerie Matoušek,restaurace,Blansko,"Domácí pizza, těstoviny a saláty, zahrádka. Blansko a okolí.",4.5,42
+26,Salon Janda,kadeřnictví,Zlín,"Moderní salon, barvení a regenerace vlasů.",4.6,245
+27,Hostinec Svoboda,restaurace,Olomouc,"Denní menu a české speciality, dětský koutek.",4.3,10
+28,Gumárna Musil,pneuservis,Praha,"Přezutí, uskladnění a prodej pneumatik.",4.7,258
+29,Dentální studio Čermák,zubař,Olomouc,Akutní ošetření a preventivní prohlídky. Olomouc a okolí.,4.8,201
+30,Účetnictví Jelínek,účetní,Blansko,Daňové poradenství a zpracování mezd. Blansko a okolí.,5.0,276
+31,Masáže U Říhaů,masáže,Plzeň,"Sportovní masáže a regenerace, objednání online.",4.6,8
+32,Květinářství Šimek,květinářství,Boskovice,"Pokojové rostliny, kytice a aranžmá. Boskovice a okolí.",3.5,121
+33,Štěpánek – malířské práce,malíř,Blansko,"Vymalování po rekonstrukci, tapetování. Blansko a okolí.",4.7,159
+34,Pneu Šimek,pneuservis,Brno,Sezónní přezutí bez objednání. Brno a okolí.,4.8,11
+35,Malíři Doležal,malíř,Blansko,"Malování interiérů, nátěry oken a dveří. Blansko a okolí.",4.7,46
+36,MVDr. Štěpánek,veterinář,Zlín,"Veterinární péče o psy, kočky a drobná zvířata. Zlín a okolí.",4.9,257
+37,Květinářství Bartoš,květinářství,Praha,"Kytice, svatební a smuteční vazby, rozvoz. Praha a okolí.",5.0,299
+38,Květiny Procházka,květinářství,Praha,"Kytice, svatební a smuteční vazby, rozvoz. Praha a okolí.",5.0,172
+39,Květinářství Kučera,květinářství,Praha,Květinářství s rozvozem a svatební floristikou.,4.5,35
+40,Blažek Auto,autoservis,Boskovice,"Servis všech značek, STK a výměna oleje.",4.5,168
+41,Fitness Štěpánek,fitness,Brno,Cvičení pro začátečníky a skupinové lekce.,5.0,80
+42,Kadeřnictví U Vaněků,kadeřnictví,Praha,"Moderní salon, barvení a regenerace vlasů. Praha a okolí.",4.3,153
+43,Masáže U Vaněků,masáže,Ostrava,"Klasické, sportovní a relaxační masáže.",4.8,135
+44,Zubní ordinace Vaněk,zubař,Boskovice,"Preventivní prohlídky, plomby a dentální hygiena. Boskovice a okolí.",5.0,47
+45,Hostinec Zeman,restaurace,Brno,"Denní menu a české speciality, dětský koutek.",4.2,48
+46,Zubař Vaněk,zubař,Boskovice,"Zubní ordinace pro dospělé i děti, bělení zubů. Boskovice a okolí.",4.9,259
+47,Daňové poradenství Blažek,účetní,Brno,Daňové poradenství a zpracování mezd.,4.5,144
+48,Zvířecí ordinace Pospíšil,veterinář,Plzeň,"Očkování, kastrace a čipování mazlíčků. Plzeň a okolí.",4.4,6
+49,Elektroservis Procházka,elektrikář,Plzeň,"Opravy elektrických rozvodů, nonstop poruchová služba. Plzeň a okolí.",4.7,62
+50,Účetnictví Hájek,účetní,Brno,"Vedení účetnictví, daňová evidence a mzdy. Brno a okolí.",4.7,11
+51,Kučera Coffee,kavárna,Praha,"Snídaně, káva a čerstvé dezerty.",4.4,150
+52,Pneuservis Štěpánek,pneuservis,Praha,"Výměna a vyvážení kol, opravy defektů.",4.4,6
+53,Beneš Pneu,pneuservis,Blansko,"Výměna a vyvážení kol, opravy defektů. Blansko a okolí.",4.6,8
+54,Malířství Zeman,malíř,Blansko,"Malířské a lakýrnické práce, rychlé termíny.",4.8,295
+55,Fit studio Vaněk,fitness,Brno,"Moderní posilovna, sauna a osobní trénink. Brno a okolí.",4.8,99
+56,Účetnictví Sedláček,účetní,Brno,Daňové poradenství a zpracování mezd. Brno a okolí.,4.9,39
+57,Květiny Fiala,květinářství,Plzeň,"Čerstvé květiny, dekorace a dárky. Plzeň a okolí.",4.4,10
+58,Květiny Kučera,květinářství,Praha,"Kytice, svatební a smuteční vazby, rozvoz. Praha a okolí.",4.2,45
+59,Blažek Pneu,pneuservis,Plzeň,Pneuservis s prodejem nových i použitých pneu. Plzeň a okolí.,3.9,23
+60,Zubní ordinace Fiala,zubař,Olomouc,"Preventivní prohlídky, plomby a dentální hygiena. Olomouc a okolí.",4.8,207
+61,Veterina Jelínek,veterinář,Zlín,"Veterinární péče o psy, kočky a drobná zvířata.",4.6,7
+62,Pneuservis Černý,pneuservis,Olomouc,"Přezutí, uskladnění a prodej pneumatik. Olomouc a okolí.",2.9,34
+63,Autodílna Musil,autoservis,Ostrava,"Rychlé opravy, příprava na STK, náhradní vozidlo. Ostrava a okolí.",4.9,160
+64,Černý Pneu,pneuservis,Brno,Sezónní přezutí bez objednání.,4.9,96
+65,Veterina Pokorný,veterinář,Zlín,Veterinární klinika s nonstop pohotovostí. Zlín a okolí.,4.7,4
+66,Salon Šimek,kadeřnictví,Praha,"Dámské, pánské a dětské střihy, barvení. Praha a okolí.",4.5,6
+67,Pneu Němec,pneuservis,Blansko,Sezónní přezutí bez objednání. Blansko a okolí.,3.9,103
+68,Kadeřnictví Pospíšil,kadeřnictví,Praha,"Moderní salon, barvení a regenerace vlasů. Praha a okolí.",4.6,225
+69,Fitness Říha,fitness,Brno,"Fitness centrum, kruhový trénink a jóga.",4.5,3
+70,Pneu Beneš,pneuservis,Praha,Sezónní přezutí bez objednání. Praha a okolí.,4.4,8
+71,Navrátil – topení a voda,instalatér,Brno,"Instalatérské práce pro domácnosti i firmy, rychlý výjezd.",4.5,119
+72,Pneuservis Pospíšil,pneuservis,Brno,"Výměna a vyvážení kol, opravy defektů. Brno a okolí.",3.4,10
+73,Dentální studio Svoboda,zubař,Ostrava,"Moderní dentální péče, implantáty a korunky. Ostrava a okolí.",4.6,6
+74,Musil – daně a mzdy,účetní,Brno,"Vedení účetnictví, daňová evidence a mzdy. Brno a okolí.",4.7,11
+75,Kadeřnictví U Kratochvílů,kadeřnictví,Zlín,"Dámské, pánské a dětské střihy, barvení.",4.6,277
+76,Pneu Černý,pneuservis,Brno,Sezónní přezutí bez objednání. Brno a okolí.,4.8,155
+77,Kadeřnictví Kratochvíl,kadeřnictví,Ostrava,"Střihy, melíry a svatební účesy, objednání online.",4.7,150
+78,Kratochvíl Pneu,pneuservis,Boskovice,"Výměna a vyvážení kol, opravy defektů. Boskovice a okolí.",4.7,248
+79,Kavárna Vlček,kavárna,Praha,"Snídaně, káva a čerstvé dezerty.",3.3,8
+80,Autoservis Zeman,autoservis,Praha,"Diagnostika, opravy brzd a geometrie. Praha a okolí.",5.0,44
+81,Fit studio Horák,fitness,Plzeň,Posilovna s osobními trenéry a skupinovými lekcemi. Plzeň a okolí.,4.8,296
+82,Topenářství Černý,instalatér,Zlín,"Oprava kotle, výměna baterií a rekonstrukce koupelen. Zlín a okolí.",4.8,75
+83,Topenářství Sedláček,instalatér,Olomouc,"Topenářské a vodoinstalační práce, servis plynových kotlů.",3.6,82
+84,Burger bar Sedláček,restaurace,Boskovice,Burgery z čerstvého masa a řemeslná piva. Boskovice a okolí.,3.5,115
+85,Restaurace U Holubů,restaurace,Blansko,"Tradiční česká kuchyně, svíčková a řízek. Blansko a okolí.",4.4,5
+86,Květinářství U Němeců,květinářství,Boskovice,"Pokojové rostliny, kytice a aranžmá.",3.2,37
+87,Vodoinstalace Veselý,instalatér,Brno,"Topenářské a vodoinstalační práce, servis plynových kotlů. Brno a okolí.",4.6,182
+88,Kratochvíl Gym,fitness,Brno,Posilovna s osobními trenéry a skupinovými lekcemi. Brno a okolí.,4.6,25
+89,Elektro Holub,elektrikář,Olomouc,"Elektroinstalace v bytech a domech, revize.",4.7,222
+90,Zeman – daně a mzdy,účetní,Olomouc,"Vedení účetnictví, daňová evidence a mzdy.",4.5,12
+91,Pneuservis Novák,pneuservis,Brno,Pneuservis s prodejem nových i použitých pneu. Brno a okolí.,4.7,34
+92,Svoboda – malířské práce,malíř,Blansko,"Malířské a lakýrnické práce, rychlé termíny. Blansko a okolí.",4.3,82
+93,Burger bar Kolář,restaurace,Boskovice,Burgery z čerstvého masa a řemeslná piva. Boskovice a okolí.,3.4,26
+94,Květinářství U Štěpáneků,květinářství,Praha,"Pokojové rostliny, kytice a aranžmá. Praha a okolí.",4.7,78
+95,Café Musil,kavárna,Praha,"Specialty káva, domácí dorty a zákusky. Praha a okolí.",3.0,79
+96,Relax Beneš,masáže,Ostrava,"Klasické, sportovní a relaxační masáže.",4.7,158
+97,Café Sedláček,kavárna,Blansko,"Specialty káva, domácí dorty a zákusky.",4.4,9
+98,Cukrárna Kratochvíl,kavárna,Boskovice,Kavárna s domácími dorty a vlastní pražírnou. Boskovice a okolí.,4.6,8
+99,Kadeřnictví Kratochvíl,kadeřnictví,Praha,"Střihy, melíry a svatební účesy, objednání online.",4.6,8
+100,Café Kolář,kavárna,Praha,Kavárna s domácími dorty a vlastní pražírnou. Praha a okolí.,4.5,79
+101,Masérské studio Doležal,masáže,Ostrava,"Sportovní masáže a regenerace, objednání online. Ostrava a okolí.",4.9,158
+102,Instalatérství Hájek,instalatér,Brno,Havárie a opravy vody a topení nonstop. Brno a okolí.,4.7,182
+103,Servis vozidel Procházka,autoservis,Praha,"Rychlé opravy, příprava na STK, náhradní vozidlo. Praha a okolí.",4.3,3
+104,Hostinec Marek,restaurace,Brno,"Denní menu a české speciality, dětský koutek. Brno a okolí.",2.9,83
+105,Topenářství Janda,instalatér,Brno,"Oprava kotle, výměna baterií a rekonstrukce koupelen.",4.6,15
+106,Servis vozidel Bartoš,autoservis,Ostrava,"Rychlé opravy, příprava na STK, náhradní vozidlo. Ostrava a okolí.",4.4,10
+107,Masáže U Blažeků,masáže,Ostrava,"Sportovní masáže a regenerace, objednání online.",3.7,15
+108,Masáže U Říhaů,masáže,Ostrava,Relaxační masáže a wellness balíčky. Ostrava a okolí.,4.0,125
+109,Šimek Pneu,pneuservis,Brno,"Výměna a vyvážení kol, opravy defektů. Brno a okolí.",5.0,181
+110,Zubní ordinace Horák,zubař,Olomouc,"Moderní dentální péče, implantáty a korunky.",4.3,13
+111,Flower Novák,květinářství,Praha,"Pokojové rostliny, kytice a aranžmá. Praha a okolí.",4.8,150
+112,Masáže Král,masáže,Ostrava,"Masáže zad a šíje, lymfatické masáže. Ostrava a okolí.",3.6,174
+113,Tichý Gym,fitness,Olomouc,"Fitness centrum, kruhový trénink a jóga.",4.2,66
+114,Vodoinstalace Janda,instalatér,Brno,Havárie a opravy vody a topení nonstop.,4.7,314
+115,Král Pneu,pneuservis,Brno,Sezónní přezutí bez objednání.,3.9,136
+116,Salon Jelínek,kadeřnictví,Praha,"Střihy, melíry a svatební účesy, objednání online.",4.4,4
+117,Dentální studio Král,zubař,Plzeň,"Preventivní prohlídky, plomby a dentální hygiena. Plzeň a okolí.",4.1,11
+118,Pizzerie Vlček,restaurace,Blansko,Pizza z pece na dřevo a denní menu. Blansko a okolí.,4.7,88
+119,Pizzerie Fiala,restaurace,Plzeň,Pizza z pece na dřevo a denní menu. Plzeň a okolí.,3.9,60
+120,Květiny Růžička,květinářství,Praha,Květinářství s rozvozem a svatební floristikou. Praha a okolí.,4.4,93
+121,Instalatér Hájek,instalatér,Brno,Montáž a servis vodovodních rozvodů a kotlů. Brno a okolí.,4.9,59
+122,Malování Šimek,malíř,Plzeň,"Malířské a lakýrnické práce, rychlé termíny. Plzeň a okolí.",4.6,98
+123,Pizzerie Urban,restaurace,Boskovice,Pizza z pece na dřevo a denní menu.,3.1,52
+124,Hostinec Říha,restaurace,Boskovice,"Tradiční česká kuchyně, svíčková a řízek. Boskovice a okolí.",3.8,48
+125,Kavárna Hájek,kavárna,Plzeň,"Snídaně, káva a čerstvé dezerty. Plzeň a okolí.",3.5,18
+126,Veselý – topení a voda,instalatér,Brno,Havárie a opravy vody a topení nonstop. Brno a okolí.,4.6,49
+127,Burger bar Beneš,restaurace,Boskovice,Burgery z čerstvého masa a řemeslná piva. Boskovice a okolí.,4.7,112
+128,Masérské studio Vaněk,masáže,Zlín,"Klasické, sportovní a relaxační masáže.",3.6,146
+129,Účetnictví Kopecký,účetní,Brno,Účetní služby pro s.r.o. a živnostníky. Brno a okolí.,4.5,12
+130,Posilovna Vaněk,fitness,Brno,"Moderní posilovna, sauna a osobní trénink.",4.7,12
+131,Cukrárna Dvořák,kavárna,Olomouc,Kavárna s domácími dorty a vlastní pražírnou.,4.5,8
+132,Masáže U Veselýů,masáže,Olomouc,"Klasické, sportovní a relaxační masáže. Olomouc a okolí.",5.0,298
+133,Autodílna Kopecký,autoservis,Ostrava,Autoservis s pneuservisem a klimatizací. Ostrava a okolí.,4.7,110
+134,Růžička – topení a voda,instalatér,Brno,"Instalatérské práce pro domácnosti i firmy, rychlý výjezd. Brno a okolí.",4.9,149
+135,Malíři Beneš,malíř,Praha,"Vymalování po rekonstrukci, tapetování. Praha a okolí.",4.7,4
+136,Účetní kancelář Marek,účetní,Brno,"Účetnictví pro OSVČ a malé firmy, daňová přiznání. Brno a okolí.",4.7,15
+137,Fitness Procházka,fitness,Brno,Cvičení pro začátečníky a skupinové lekce. Brno a okolí.,3.3,80
+138,Kavárna Dvořák,kavárna,Praha,Kavárna s domácími dorty a vlastní pražírnou.,4.7,71
+139,Novák Hair Studio,kadeřnictví,Praha,Pánské holičství a úprava vousů. Praha a okolí.,4.9,118
+140,Pizzerie Blažek,restaurace,Blansko,"Domácí pizza, těstoviny a saláty, zahrádka. Blansko a okolí.",3.8,60
+141,Veterina Holub,veterinář,Ostrava,Veterinární klinika s nonstop pohotovostí. Ostrava a okolí.,4.9,127
+142,Instalatérství Procházka,instalatér,Brno,Havárie a opravy vody a topení nonstop.,4.8,46
+143,Pizzerie Kopecký,restaurace,Blansko,"Domácí pizza, těstoviny a saláty, zahrádka. Blansko a okolí.",4.8,88
+144,Servis vozidel Musil,autoservis,Ostrava,"Rychlé opravy, příprava na STK, náhradní vozidlo.",4.7,14
+145,Instalatér Polák,instalatér,Ostrava,Havárie a opravy vody a topení nonstop.,4.7,6
+146,Elektro Procházka,elektrikář,Brno,Revize elektrických spotřebičů a zařízení. Brno a okolí.,4.6,5
+147,Burger bar Král,restaurace,Blansko,Burgery z čerstvého masa a řemeslná piva.,4.4,4
+148,Posilovna Holub,fitness,Ostrava,Cvičení pro začátečníky a skupinové lekce. Ostrava a okolí.,4.6,6
+149,Vlček – topení a voda,instalatér,Brno,Havárie a opravy vody a topení nonstop.,4.9,176
+150,Černý – topení a voda,instalatér,Brno,Havárie a opravy vody a topení nonstop.,4.5,11
+151,Hostinec Štěpánek,restaurace,Ostrava,"Denní menu a české speciality, dětský koutek.",3.6,26
+152,Pizzerie Horák,restaurace,Blansko,"Domácí pizza, těstoviny a saláty, zahrádka. Blansko a okolí.",4.5,10
+153,Instalatér Hájek,instalatér,Praha,Montáž a servis vodovodních rozvodů a kotlů.,4.6,128
+154,Elektroservis Pospíšil,elektrikář,Plzeň,Revize elektrických spotřebičů a zařízení.,3.0,17
+155,Kratochvíl Coffee,kavárna,Praha,Kavárna s domácími dorty a vlastní pražírnou. Praha a okolí.,4.1,135
+156,Malíři Kučera,malíř,Blansko,"Malířské a lakýrnické práce, rychlé termíny. Blansko a okolí.",4.6,127
+157,Pospíšil – topení a voda,instalatér,Boskovice,Havárie a opravy vody a topení nonstop.,4.8,223
+158,Urban Coffee,kavárna,Praha,"Káva, limonády a koláče, zahrádka. Praha a okolí.",4.7,284
+159,Účetnictví Říha,účetní,Brno,"Vedení účetnictví, daňová evidence a mzdy.",4.3,15
+160,Relax Růžička,masáže,Ostrava,"Klasické, sportovní a relaxační masáže. Ostrava a okolí.",4.5,200
+161,Němec – topení a voda,instalatér,Brno,Havárie a opravy vody a topení nonstop. Brno a okolí.,4.5,6
+162,MVDr. Černý,veterinář,Zlín,"Veterinární péče o psy, kočky a drobná zvířata.",3.7,89
+163,Topenářství Čermák,instalatér,Brno,Montáž a servis vodovodních rozvodů a kotlů. Brno a okolí.,3.9,75
+164,Burger bar Procházka,restaurace,Blansko,Burgery z čerstvého masa a řemeslná piva.,4.7,275
+165,Elektrikář Beneš,elektrikář,Plzeň,"Montáž osvětlení, rozvaděčů a hromosvodů.",4.6,104
+166,Kučera Auto,autoservis,Ostrava,"Servis všech značek, STK a výměna oleje.",3.3,23
+167,Elektrikář Šimek,elektrikář,Plzeň,"Montáž osvětlení, rozvaděčů a hromosvodů. Plzeň a okolí.",4.8,14
+168,Cukrárna Veselý,kavárna,Blansko,Kavárna s domácími dorty a vlastní pražírnou. Blansko a okolí.,5.0,69
+169,Urban Auto,autoservis,Ostrava,"Servis všech značek, STK a výměna oleje.",5.0,264
+170,Daňové poradenství Holub,účetní,Brno,Daňové poradenství a zpracování mezd. Brno a okolí.,4.8,66
+171,Květinářství U Králů,květinářství,Zlín,"Pokojové rostliny, kytice a aranžmá. Zlín a okolí.",3.3,33
+172,Veterina Matoušek,veterinář,Zlín,Veterinární klinika s nonstop pohotovostí.,5.0,70
+173,Autoservis Čermák,autoservis,Ostrava,"Diagnostika, opravy brzd a geometrie.",4.5,25
+174,Autodílna Beneš,autoservis,Plzeň,"Rychlé opravy, příprava na STK, náhradní vozidlo. Plzeň a okolí.",4.9,165
+175,Marek – elektroinstalace,elektrikář,Praha,"Opravy elektrických rozvodů, nonstop poruchová služba.",4.5,79
+176,Janda Auto,autoservis,Plzeň,"Rychlé opravy, příprava na STK, náhradní vozidlo. Plzeň a okolí.",4.7,139
+177,Účetnictví Černý,účetní,Brno,Účetní služby pro s.r.o. a živnostníky.,3.8,149
+178,Dentální studio Doležal,zubař,Ostrava,"Moderní dentální péče, implantáty a korunky.",4.9,49
+179,Relax Holub,masáže,Ostrava,"Sportovní masáže a regenerace, objednání online.",4.6,56
+180,Kolář Pneu,pneuservis,Olomouc,"Výměna a vyvážení kol, opravy defektů.",5.0,320
+181,Fit studio Veselý,fitness,Praha,Cvičení pro začátečníky a skupinové lekce. Praha a okolí.,3.1,6
+182,Elektrikář Němec,elektrikář,Ostrava,"Opravy elektrických rozvodů, nonstop poruchová služba. Ostrava a okolí.",4.7,253
+183,Kadeřnictví U Navrátilů,kadeřnictví,Praha,Pánské holičství a úprava vousů.,4.7,9
+184,Malování Kučera,malíř,Zlín,"Vymalování po rekonstrukci, tapetování.",4.3,77
+185,MVDr. Kopecký,veterinář,Brno,"Veterinární péče o psy, kočky a drobná zvířata.",4.5,10
+186,Hájek Coffee,kavárna,Zlín,"Specialty káva, domácí dorty a zákusky.",4.5,57
+187,Blažek – elektroinstalace,elektrikář,Plzeň,Revize elektrických spotřebičů a zařízení. Plzeň a okolí.,3.6,120
+188,Restaurace Procházka,restaurace,Blansko,"Domácí pizza, těstoviny a saláty, zahrádka. Blansko a okolí.",3.6,33
+189,Topenářství Blažek,instalatér,Brno,Havárie a opravy vody a topení nonstop. Brno a okolí.,4.8,44
+190,Autodílna Vaněk,autoservis,Ostrava,"Diagnostika, opravy brzd a geometrie.",4.6,12
+191,Masáže Král,masáže,Praha,"Klasické, sportovní a relaxační masáže.",4.5,12
+192,Veselý Pneu,pneuservis,Brno,Pneuservis s prodejem nových i použitých pneu. Brno a okolí.,4.7,240
+193,Restaurace Navrátil,restaurace,Blansko,"Domácí pizza, těstoviny a saláty, zahrádka. Blansko a okolí.",4.1,124
+194,Blažek – malířské práce,malíř,Brno,"Malování interiérů, nátěry oken a dveří. Brno a okolí.",3.8,109
+195,Fitness Říha,fitness,Olomouc,"Fitness centrum, kruhový trénink a jóga.",4.5,9
+196,Musil Gym,fitness,Brno,Posilovna s osobními trenéry a skupinovými lekcemi.,4.5,15
+197,Veterinární klinika Marek,veterinář,Praha,Veterinární klinika s nonstop pohotovostí. Praha a okolí.,4.8,4
+198,Flower Pospíšil,květinářství,Brno,"Pokojové rostliny, kytice a aranžmá. Brno a okolí.",4.7,104
+199,Němec Gym,fitness,Brno,Posilovna s osobními trenéry a skupinovými lekcemi.,4.6,316
+200,Restaurace Matoušek,restaurace,Blansko,"Domácí pizza, těstoviny a saláty, zahrádka. Blansko a okolí.",4.7,8
+201,Masérské studio Navrátil,masáže,Blansko,"Masáže zad a šíje, lymfatické masáže.",4.1,130
+202,Navrátil Auto,autoservis,Ostrava,"Diagnostika, opravy brzd a geometrie.",4.6,217
+203,Pizzerie Matoušek,restaurace,Plzeň,Pizza z pece na dřevo a denní menu.,4.4,3
+204,Elektrikář Dvořák,elektrikář,Olomouc,Revize elektrických spotřebičů a zařízení.,4.0,23
+205,Zubař Kolář,zubař,Olomouc,"Zubní ordinace pro dospělé i děti, bělení zubů. Olomouc a okolí.",4.2,132
+206,Květinářství Vlček,květinářství,Praha,"Čerstvé květiny, dekorace a dárky. Praha a okolí.",4.8,180
+207,Navrátil – malířské práce,malíř,Blansko,"Malování bytů a domů, stěrky a nátěry fasád. Blansko a okolí.",4.8,11
+208,Kavárna Čermák,kavárna,Praha,Kavárna s domácími dorty a vlastní pražírnou. Praha a okolí.,4.6,13
+209,Zvířecí ordinace Šimek,veterinář,Zlín,Veterinární klinika s nonstop pohotovostí.,4.9,34
+210,Burger bar Hájek,restaurace,Boskovice,Burgery z čerstvého masa a řemeslná piva.,4.7,198
+211,Zubař Tichý,zubař,Olomouc,"Zubní ordinace pro dospělé i děti, bělení zubů.",4.7,197
+212,Cukrárna Novák,kavárna,Plzeň,"Snídaně, káva a čerstvé dezerty.",4.1,119
+213,Zubař Pospíšil,zubař,Olomouc,"Zubní ordinace pro dospělé i děti, bělení zubů. Olomouc a okolí.",4.0,141
+214,Elektro Fiala,elektrikář,Plzeň,"Montáž osvětlení, rozvaděčů a hromosvodů.",4.5,196
+215,Veterinární klinika Kopecký,veterinář,Zlín,"Ordinace pro malá zvířata, operace a laboratoř.",4.1,76
+216,Pizzerie Štěpánek,restaurace,Boskovice,Pizza z pece na dřevo a denní menu. Boskovice a okolí.,4.7,244
+217,Sedláček – daně a mzdy,účetní,Ostrava,"Vedení účetnictví, daňová evidence a mzdy. Ostrava a okolí.",4.3,180
+218,Malíři Polák,malíř,Blansko,"Malířské a lakýrnické práce, rychlé termíny.",4.4,12

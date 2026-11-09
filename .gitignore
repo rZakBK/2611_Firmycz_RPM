@@ -1,0 +1,6 @@
+# Osobní záznamy dotazů z vyzkoušení – do repozitáře nepatří
+bez_vysledku.csv
+
+# Dočasné soubory Pythonu
+__pycache__/
+*.pyc
