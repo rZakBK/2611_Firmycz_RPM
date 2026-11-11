@@ -2,7 +2,7 @@
 
 Malý výukový prototyp vyhledávání a řazení firem v katalogu. Vznikl jako ukázkový projekt k pozici **Ranking Product Manager (Firmy.cz)**. Cílem není hotový vyhledávač, ale ukázat způsob práce: najít problém v kvalitě výsledků, navrhnout úpravu, změřit její dopad a umět výsledky vysvětlit.
 
-Projekt jsem napsal v Pythonu s pomocí AI asistenta, každou jeho část rozumím a umím ji vysvětlit.
+Projekt jsem napsal v Pythonu s pomocí AI asistenta.
 
 ## Co projekt umí
 
