@@ -69,7 +69,3 @@ Varianta B je lepší než A ve všech metrikách. Nejvýraznější je to u dot
 ## Omezení
 
 Data jsou vymyšlená (vygenerovaná AI) a malá. „Správná odpověď“ v `dotazy.csv` je můj předpoklad: firma oborově i místně sedí a má hodnocení alespoň 4,3 a aspoň 20 recenzí. Tím je varianta B v testu mírně zvýhodněná, protože kvalitu přímo odměňuje. Zjednodušení tvarů slov je ruční a zná jen část češtiny. Skutečné A/B testování by probíhalo na reálných uživatelích a měřilo jejich chování (prokliky, kontaktování firmy), ne předem určené správné odpovědi.
-
-## Jak by se totéž řešilo v produkci
-
-V Elasticsearchi by se většina úprav dělala vestavěnými nástroji: odstranění diakritiky filtrem `asciifolding`, tvary slov českým analyzátorem se stemmerem, překlepy (např. `intaler`) pomocí `fuzziness`, výjimky slovníkem synonym, shoda textu skórováním BM25 a bonus za hodnocení přes `function_score`. Nová varianta řazení by se nasadila za feature flag na část uživatelů a vyhodnotila podle jejich skutečného chování.
