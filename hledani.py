@@ -59,6 +59,12 @@ KONCOVKY = ("ami", "emi", "ech", "ich", "em", "ou", "om", "a", "e", "i", "u", "y
 # slova). Fungují jako malý slovník synonym: tvar z dotazu -> základní tvar.
 VYJIMKY = {"praze": "praha", "plzni": "plzen", "plzne": "plzen"}
 
+# Synonyma: různá slova pro stejnou věc. Klíč je základ slova z dotazu
+# (už bez koncovky), hodnota je slovo, které se hledá místo něj.
+# Např. „autodílna“, „autodílnu“ i „autodílně“ se hledají jako „autoservis“.
+SYNONYMA = {"autodiln": "autoservis", "autoopravn": "autoservis",
+            "kadernik": "kadernictv", "fitk": "posilovn"}
+
 # Hezčí názvy pro výpis vysvětlení skóre
 POPISKY = {"obor": "obor", "nazev": "název", "mesto": "město", "popis": "popis",
            "hodnoceni": "hodnocení", "recenze": "recenze"}
@@ -86,8 +92,9 @@ def zakladni_tvar(slovo):
     slovo = VYJIMKY.get(slovo, slovo)      # nejdřív zkusíme slovník výjimek
     for koncovka in KONCOVKY:
         if slovo.endswith(koncovka) and len(slovo) - len(koncovka) >= 3:
-            return slovo[:-len(koncovka)]
-    return slovo
+            slovo = slovo[:-len(koncovka)]
+            break
+    return SYNONYMA.get(slovo, slovo)      # nakonec případně nahradíme synonymem
 
 
 def podstatna_slova(dotaz):
@@ -146,20 +153,25 @@ def hledej(dotaz, varianta="A", kolik=5):
     return vysledky.head(kolik)
 
 
-def slova_oboru(dotaz):
-    """Vrátí z dotazu jen slova, která odpovídají nějakému oboru v katalogu.
-    Z 'autoservis Brno' zůstane 'autoservis' (Brno není obor)."""
-    vsechny_obory = set()
-    for obor in firmy["obor"]:
-        vsechny_obory.update(slova(obor))
-    vybrana = []
+def bez_mesta(dotaz):
+    """Vrátí dotaz bez slov, která jsou názvem města z katalogu.
+    Z 'autodílna Blansko' zůstane 'autodílna'. Když v dotazu žádné město není, vrátí ''."""
+    vsechna_mesta = set()
+    for mesto in firmy["mesto"]:
+        vsechna_mesta.update(slova(mesto))
+    ponechana = []
+    nalezeno_mesto = False
     for slovo in slova(dotaz):
         if len(slovo) < 3 or slovo in STOP_SLOVA:
             continue
         zaklad = zakladni_tvar(slovo)
-        if any(o.startswith(zaklad) for o in vsechny_obory):
-            vybrana.append(slovo)
-    return " ".join(vybrana)
+        if any(m.startswith(zaklad) for m in vsechna_mesta):
+            nalezeno_mesto = True          # tohle slovo je město, vynecháme ho
+        else:
+            ponechana.append(slovo)
+    if not nalezeno_mesto:
+        return ""
+    return " ".join(ponechana)
 
 
 def rozpis_textem(rozpis):
@@ -189,13 +201,13 @@ def vyzkouset():
             break
         hledany = dotaz
         if hledej(dotaz).empty:
-            # Přesně nic nenalezeno. Dotaz si uložíme a zkusíme hledat jen podle oboru.
+            # Přesně nic nenalezeno. Dotaz si uložíme a zkusíme hledat bez města.
             zaznamenej_bez_vysledku(dotaz)
-            jen_obor = slova_oboru(dotaz)
-            if jen_obor and not hledej(jen_obor).empty:
+            bez_mesta_dotaz = bez_mesta(dotaz)
+            if bez_mesta_dotaz and not hledej(bez_mesta_dotaz).empty:
                 print(f"\n  {CERVENA}Pro „{dotaz}“ nic přesně neodpovídá.{KONEC}")
-                print(f"  Zobrazuji výsledky jen pro „{jen_obor}“ (jiná města):")
-                hledany = jen_obor
+                print(f"  Zobrazuji výsledky pro „{bez_mesta_dotaz}“ v jiných městech:")
+                hledany = bez_mesta_dotaz
         for varianta in ["A", "B"]:
             print(f"\n  {TUCNE}Varianta {varianta}:{KONEC}")
             vysledky = hledej(hledany, varianta)

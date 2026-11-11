@@ -2,7 +2,7 @@
 
 Malý výukový prototyp vyhledávání a řazení firem v katalogu. Vznikl jako ukázkový projekt k pozici **Ranking Product Manager (Firmy.cz)**. Cílem není hotový vyhledávač, ale ukázat způsob práce: najít problém v kvalitě výsledků, navrhnout úpravu, změřit její dopad a umět výsledky vysvětlit.
 
-Projekt jsem napsal v Pythonu s pomocí AI asistenta.
+Projekt jsem vytvořil v Pythonu s pomocí AI asistenta.
 
 ## Co projekt umí
 
@@ -38,10 +38,11 @@ Před porovnáním se text upravuje:
 
 1. **Malá písmena a odstranění diakritiky**, takže `instalater` najde `instalatér`.
 2. **Zjednodušení českých tvarů slov** uříznutím běžných koncovek (`Brně`, `Brna`, `Brnem` → `brn`) a malý slovník výjimek pro tvary, které se mění i uvnitř slova (`Praze` → `praha`, `Plzni` → `plzen`).
-3. **Vynechání slov, která nic nehledají** (krátká slova jako `v`, `z` a stop slova jako `nejlepší`, `levný`).
-4. **Pravidlo „všechna slova“**: firma se zobrazí jen tehdy, když se v ní najde každé podstatné slovo dotazu. Dřív stačila shoda jediného slova, a dotaz `instalater Brno` tak vracel všechny brněnské firmy (posilovnu, kadeřnictví, pneuservis).
+3. **Synonyma**: malý slovník slov, která znamenají totéž co obor v katalogu (`autodílna` → `autoservis`, `kadeřník` → `kadeřnictví`).
+4. **Vynechání slov, která nic nehledají** (krátká slova jako `v`, `z` a stop slova jako `nejlepší`, `levný`).
+5. **Pravidlo „všechna slova“**: firma se zobrazí jen tehdy, když se v ní najde každé podstatné slovo dotazu. Dřív stačila shoda jediného slova, a dotaz `instalater Brno` tak vracel všechny brněnské firmy (posilovnu, kadeřnictví, pneuservis).
 
-Když dotaz přesně nic nenajde (např. `autoservis Brno`, ale v Brně žádný autoservis v datech není), program to řekne a nabídne výsledky jen pro obor z jiných měst, místo prázdné stránky. Vyhodnocení A/B tuto záložní nabídku nepoužívá, měří jen přesné výsledky.
+Když dotaz přesně nic nenajde (např. `autoservis Brno`, ale v Brně žádný autoservis v datech není), program to řekne a zkusí hledat znovu bez města, takže nabídne výsledky z jiných měst místo prázdné stránky. Vyhodnocení A/B tuto záložní nabídku nepoužívá, měří jen přesné výsledky.
 
 Dotazy, které nic nenajdou, se ukládají do `bez_vysledku.csv` a vyhodnocení vypíše jejich přehled. Dotazy bez výsledku jsou běžná metrika kvality vyhledávání a dobrý zdroj nápadů, co zlepšit.
 
@@ -68,4 +69,4 @@ Varianta B je lepší než A ve všech metrikách. Nejvýraznější je to u dot
 
 ## Omezení
 
-Data jsou vymyšlená (vygenerovaná AI) a malá. „Správná odpověď“ v `dotazy.csv` je můj předpoklad: firma oborově i místně sedí a má hodnocení alespoň 4,3 a aspoň 20 recenzí. Tím je varianta B v testu mírně zvýhodněná, protože kvalitu přímo odměňuje. Zjednodušení tvarů slov je ruční a zná jen část češtiny. Skutečné A/B testování by probíhalo na reálných uživatelích a měřilo jejich chování (prokliky, kontaktování firmy), ne předem určené správné odpovědi.
+Data jsou vymyšlená (vygenerovaná AI) a malá. „Správná odpověď“ v `dotazy.csv` je můj předpoklad: firma oborově i místně sedí a má hodnocení alespoň 4,3 a aspoň 20 recenzí. Tím je varianta B v testu mírně zvýhodněná, protože kvalitu přímo odměňuje. Zjednodušení tvarů slov je ruční a zná jen část češtiny. Skutečné A/B testování by probíhalo na reálných uživatelích a měřilo jejich chování (prokliky, kontaktování firmy), ne předem určené správné odpovědi. Překlepy (např. `autosevis`) a slova, která nejsou ve slovníku synonym, program zatím nenajde.
